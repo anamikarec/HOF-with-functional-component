@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import HOC from "./HOC";
 
 const A = (props) => {
@@ -11,6 +11,7 @@ const A = (props) => {
     <div>
       <h2>{count}</h2>
       <button onClick={handleIncrement}>Increment {name}</button>
+      <h6>(Increment with click)</h6>
     </div>
   );
 };

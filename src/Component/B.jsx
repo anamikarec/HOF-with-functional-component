@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import HOC from "./HOC";
 
 const B = (props) => {
@@ -9,9 +9,9 @@ const B = (props) => {
   // };
   return (
     <div>
-      <h2></h2>
       <h2>{count}</h2>
       <button onMouseOver={handleIncrement}>Increment {name}</button>
+      <h6>(Increment with Hover)</h6>
     </div>
   );
 };
